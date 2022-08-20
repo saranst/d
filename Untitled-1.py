@@ -1,4 +1,4 @@
-usernameInput = input("Username :")
+sernameInput = input("Username :")
 passwordInput = input("Password :")
 if usernameInput == "a" and passwordInput == "a":
     print("Done !")
@@ -15,3 +15,6 @@ if usernameInput == "a" and passwordInput == "a":
         price1 = int(input("First Product Price : "))
         price2 = int(input("Second Product Price : "))
         print(price1+price2)
+nom = int(input("nomber"))
+if nom == "5":
+    print("ddd")
