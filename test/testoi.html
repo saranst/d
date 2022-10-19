@@ -3,6 +3,11 @@
     <body style="background-color:rgb(230, 175, 235 );">
 <!---
     sarun so god-->
+    <h1><button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Time. </button> </h1>
+
+    <p id="demo"></p>
     <style>
         
         h1 
@@ -97,15 +102,24 @@
 			</li>
             
 		</ul>
+        
+
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+        <p id="demo"></p>
+        
         <script>
-            alert("glass")
-            function nick() 
-            {
+            function showAlert() {
                 alert("glass")
             }
+            function go() {
 
+            }
+                
         </script>
-        <button onclick="nick">some thing i want to tell u</button>
+        
         
 	</body>
 </html>
