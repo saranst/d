@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-     color: rgb(21, 27, 8);
+     color: rgb(136, 191, 238);
      text-align: center;
      font-size: 35px;
 }
@@ -75,4 +75,85 @@ h1 {
 }
 h2 {
     font-size: 50px;
+}
+h3 {
+    color: rgb(162, 47, 255);
+    text-align: center;
+    font-size: 35px;
+}
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px rgba(223, 33, 33, 0.71);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(252, 63, 63, 0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(124, 18, 18, 0.71);
+}
+.navbar {
+    max-width: 1560px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-left div:hover,
+.find-a-store:hover {
+    color: #00754a;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > *,
+.navbar-right > * {
+    margin: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+h5 {
+    color: rgb(0, 255, 34);
+    
+    font-size: 35px;
 }
